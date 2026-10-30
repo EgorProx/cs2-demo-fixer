@@ -24,13 +24,14 @@ GUI написано на WinForms. Движок починки — локаль
 
 ## Скачать и запустить
 
-1. Скачай папку `dist` целиком (не только exe: рядом должны лежать `cli.js` и `demofix.js`).
-2. Установи [Node.js](https://nodejs.org/) 22.15 или новее.
-3. Запусти `dist\cs2-demo-fixer.exe`.
-4. Перетащи в окно `.dem`, `.dem.zst` или `.dem.gz` и нажми «Починить».
-5. Положи готовый `-fixed.dem` в:
+1. Скачай репозиторий (`Code` → `Download ZIP`) и распакуй.
+2. Открой папку `dist`: там `cs2-demo-fixer.exe`, `cli.js` и `demofix.js` (их нельзя разделять).
+3. Установи [Node.js](https://nodejs.org/) 22.15 или новее.
+4. Запусти `dist\cs2-demo-fixer.exe`.
+5. Перетащи в окно `.dem`, `.dem.zst` или `.dem.gz` и нажми «Починить».
+6. Положи готовый `-fixed.dem` в:
    `steamapps\common\Counter-Strike Global Offensive\game\csgo`
-6. В консоли CS2: `playdemo имя-файла` (без `.dem`).
+7. В консоли CS2: `playdemo имя-файла` (без `.dem`).
 
 Кнопка «Копировать playdemo» копирует готовую команду.
 
